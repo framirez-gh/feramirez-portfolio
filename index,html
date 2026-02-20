@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fernando Ramirez | Senior Software Engineer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0f172a;
+    color: #e2e8f0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+.section {
+    margin-bottom: 80px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #94a3b8;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: #243248;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px;
+    color: #64748b;
+}
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container hero section">
+    <h1>Fernando Ramirez</h1>
+    <p>
+        Senior Software Engineer specializing in Oracle development,
+        database architecture, and enterprise systems design.
+        12+ years building scalable, high-performance solutions.
+    </p>
+</div>
+
+<div class="container section">
+    <h2>About</h2>
+    <p>
+        I design and optimize mission-critical database systems.
+        My expertise spans Oracle EBS, PL/SQL performance tuning,
+        system architecture, and production support in enterprise environments.
+    </p>
+</div>
+
+<div class="container section">
+    <h2>Technical Expertise</h2>
+    <div class="skills-grid">
+        <div class="card">
+            <h3>Database Engineering</h3>
+            <p>Oracle SQL, PL/SQL, Query Optimization, Indexing, AWR Analysis</p>
+        </div>
+        <div class="card">
+            <h3>Architecture</h3>
+            <p>Data Modeling, Scalability Design, Performance Engineering</p>
+        </div>
+        <div class="card">
+            <h3>Enterprise Systems</h3>
+            <p>Oracle EBS, Integration Design, Production Support</p>
+        </div>
+        <div class="card">
+            <h3>Systems Design</h3>
+            <p>High Availability, Fault Tolerance, Distributed Systems Concepts</p>
+        </div>
+    </div>
+</div>
+
+<div class="container section">
+    <h2>Architecture Highlights</h2>
+    <div class="project">
+        <strong>Bill of Materials Explosion Optimization</strong>
+        <p>
+            Redesigned hierarchical SQL logic using CONNECT BY and performance tuning
+            techniques, reducing execution time by 60%.
+        </p>
+    </div>
+    <div class="project">
+        <strong>Production Performance Stabilization</strong>
+        <p>
+            Identified and resolved high-load bottlenecks through indexing strategies
+            and statistics management.
+        </p>
+    </div>
+</div>
+
+<div class="container section">
+    <h2>Experience Snapshot</h2>
+    <p>
+        12+ years in enterprise software engineering working with cross-functional teams,
+        delivering reliable and scalable database-driven solutions.
+    </p>
+</div>
+
+<div class="container section">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+    <p>GitHub: https://github.com/yourusername</p>
+    <p>LinkedIn: https://linkedin.com/in/yourprofile</p>
+</div>
+
+<div class="footer">
+    © 2026 Fernando Ramirez — Built with GitHub Pages
+</div>
+
+</body>
+</html>
